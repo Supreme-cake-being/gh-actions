@@ -3,8 +3,10 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: first-step
-        run: echo "NIGGERS!!!"
+        run: |
+          echo "NIGGERS!!!"
+          echo "HOG RIIIIIIIIIIIIDER!!!"
       - name: second-step
-        run: echo "HOG RIIIIIIIIIIIIDER!!!"
+        run: echo "Hog is coming for stephan's ass xD"
