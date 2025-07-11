@@ -1,2 +1,10 @@
 name: First Workflow
 on: workflow_dispatch
+jobs:
+  fitst-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: first-step
+        run: echo "NIGGERS!!!"
+      - name: second-step
+        run: echo "HOG RIIIIIIIIIIIIDER!!!"
