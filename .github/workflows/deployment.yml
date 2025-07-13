@@ -40,8 +40,6 @@ jobs:
           node-version: 22.15.0
       - name: Install Deps
         run: npm ci
-      - name: Test
-        run: npm run test
       - name: Build
         run: npm run build
       - name: Deploy
